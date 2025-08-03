@@ -25,6 +25,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 .grid-container{
     display: grid;
@@ -138,9 +139,10 @@ body{
         grid-template-rows: auto;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
-        "daniel jonathan"
-        "kira jeanette"
-        "patrick patrick";
+        "daniel daniel"
+        "jonathan jeanette"
+        "patrick patrick"
+        "kira kira";
     }
     .comment-card{
         box-shadow: 10px 5px 20px 10px hsl(0, 0%, 81%);
